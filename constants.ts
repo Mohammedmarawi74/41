@@ -33,7 +33,7 @@ export const DEFAULT_THEME: ThemeConfig = {
   backgroundImageUrl: null,
   showLogo: true,
   showFooter: true,
-  footerText: 'رادار المستثمر © 2025',
+  footerText: '',
 };
 
 export const DEFAULT_CSS = `/* يمكنك كتابة CSS مخصص هنا */

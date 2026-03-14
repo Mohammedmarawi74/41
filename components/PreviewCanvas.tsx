@@ -35,7 +35,7 @@ const PreviewCanvas = forwardRef<HTMLDivElement, PreviewCanvasProps>(({ slide, t
             backgroundColor: theme.backgroundColor,
             color: theme.textColor,
             transform: 'scale(0.5555)', // Scale 1080 -> 600
-            transformOrigin: 'top left',
+            transformOrigin: 'top right',
             fontFamily: '"IBM Plex Sans Arabic", sans-serif',
           }}
         >
