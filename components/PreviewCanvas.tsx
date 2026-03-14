@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import { SlideData, ThemeConfig } from '../types';
-import { Plus, Minus, Radar } from 'lucide-react';
+import { Plus, Minus, Radar, CircleHelp } from 'lucide-react';
 
 interface PreviewCanvasProps {
   slide: SlideData;
@@ -100,7 +100,7 @@ const PreviewCanvas = forwardRef<HTMLDivElement, PreviewCanvasProps>(({ slide, t
                       color: slide.isOpen ? '#000' : theme.primaryColor
                     }}
                   >
-                    {slide.isOpen ? <Minus size={60} strokeWidth={3} /> : <Plus size={60} strokeWidth={3} />}
+                    {slide.isOpen ? <Minus size={50} strokeWidth={3} /> : <CircleHelp size={50} strokeWidth={3} />}
                   </div>
                 </div>
 

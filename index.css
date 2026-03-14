@@ -579,7 +579,7 @@ body {
 }
 
 .canvas-slide-number {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 700;
   opacity: 0.3;
   letter-spacing: 0.1em;
@@ -609,16 +609,16 @@ body {
 }
 
 .question-text-content {
-  font-size: 80px;
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: 600;
   line-height: 1.2;
   margin: 0;
 }
 
 .toggle-icon-visual {
   flex-shrink: 0;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 9999px;
   display: flex;
   align-items: center;
@@ -646,7 +646,7 @@ body {
 }
 
 .answer-text {
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.6;
   color: #e5e7eb;
   font-weight: 300;
@@ -663,7 +663,7 @@ body {
 }
 
 .footer-text {
-  font-size: 36px;
+  font-size: 30px;
   color: #6b7280;
   font-weight: 500;
 }
@@ -695,7 +695,7 @@ body {
 }
 
 .premium-footer-text {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 500;
   color: white;
   margin-bottom: 60px; /* Distance from the bottom bar */
