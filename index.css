@@ -579,7 +579,7 @@ body {
 }
 
 .canvas-slide-number {
-  font-size: 60px;
+  font-size: 100px;
   font-weight: 700;
   opacity: 0.3;
   letter-spacing: 0.1em;
@@ -609,21 +609,21 @@ body {
 }
 
 .question-text-content {
-  font-size: 56px;
+  font-size: 80px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.2;
   margin: 0;
 }
 
 .toggle-icon-visual {
   flex-shrink: 0;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 9999px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid;
+  border: 3px solid;
   transition: colors 0.2s;
 }
 
@@ -646,7 +646,7 @@ body {
 }
 
 .answer-text {
-  font-size: 42px;
+  font-size: 56px;
   line-height: 1.6;
   color: #e5e7eb;
   font-weight: 300;
@@ -663,7 +663,7 @@ body {
 }
 
 .footer-text {
-  font-size: 24px;
+  font-size: 36px;
   color: #6b7280;
   font-weight: 500;
 }
@@ -685,7 +685,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 5px;
+  height: 10px;
   background-color: var(--primary);
   z-index: 100;
   display: flex;
@@ -695,10 +695,10 @@ body {
 }
 
 .premium-footer-text {
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 500;
   color: white;
-  margin-bottom: 50px; /* Distance from the bottom bar */
+  margin-bottom: 60px; /* Distance from the bottom bar */
   opacity: 0.9;
   letter-spacing: 0.05em;
   font-family: "IBM Plex Sans Arabic", sans-serif;

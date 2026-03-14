@@ -100,7 +100,7 @@ const PreviewCanvas = forwardRef<HTMLDivElement, PreviewCanvasProps>(({ slide, t
                       color: slide.isOpen ? '#000' : theme.primaryColor
                     }}
                   >
-                    {slide.isOpen ? <Minus size={40} strokeWidth={3} /> : <Plus size={40} strokeWidth={3} />}
+                    {slide.isOpen ? <Minus size={60} strokeWidth={3} /> : <Plus size={60} strokeWidth={3} />}
                   </div>
                 </div>
 
